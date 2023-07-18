@@ -1,0 +1,14 @@
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\bin\Debug\net7.0\SummerCamp.DataModels.deps.json
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\bin\Debug\net7.0\SummerCamp.DataModels.runtimeconfig.json
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\bin\Debug\net7.0\SummerCamp.DataModels.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\bin\Debug\net7.0\SummerCamp.DataModels.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.csproj.AssemblyReference.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.AssemblyInfoInputs.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.AssemblyInfo.cs
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\refint\SummerCamp.DataModels.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\SummerCamp.DataModels.genruntimeconfig.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataModels\obj\Debug\net7.0\ref\SummerCamp.DataModels.dll

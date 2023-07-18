@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerCamp", "SummerCamp.csproj", "{07A38A54-4A98-459D-A11C-496D3E7F9302}"
+	ProjectSection(ProjectDependencies) = postProject
+		{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE} = {32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}
+		{57155377-347D-48C3-A76D-88E5D6F5090B} = {57155377-347D-48C3-A76D-88E5D6F5090B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerCamp.DataModels", "..\SummerCamp.DataModels\SummerCamp.DataModels.csproj", "{57155377-347D-48C3-A76D-88E5D6F5090B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerCamp.DataAccessLayer", "..\SummerCamp.DataAccessLayer\SummerCamp.DataAccessLayer.csproj", "{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SummerCamp.Database", "..\SummerCamp.Database\SummerCamp.Database.sqlproj", "{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A38A54-4A98-459D-A11C-496D3E7F9302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A38A54-4A98-459D-A11C-496D3E7F9302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A38A54-4A98-459D-A11C-496D3E7F9302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A38A54-4A98-459D-A11C-496D3E7F9302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57155377-347D-48C3-A76D-88E5D6F5090B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57155377-347D-48C3-A76D-88E5D6F5090B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57155377-347D-48C3-A76D-88E5D6F5090B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57155377-347D-48C3-A76D-88E5D6F5090B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D81CB5-C18E-4DD5-BA00-85F9D64A89FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A55C7E5-B0C2-431E-989D-3A7E7F56113F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98DA50F2-91F9-4D78-AA01-6FA158C440B3}
+	EndGlobalSection
+EndGlobal

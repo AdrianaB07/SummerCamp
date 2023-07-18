@@ -1,0 +1,43 @@
+﻿@using SummerCamp.Models
+@model TeamViewModel
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+<div class="details-section">
+@{
+    ViewData["Title"] = "Edit Team";
+}
+
+
+<form id="myForm" asp-action="Edit" method="post" class="needs-validation" novalidate>
+    <input asp-for='Id' hidden />
+    <div class="form-group">
+        <label asp-for="NickName"></label>
+        <input asp-for="NickName" class="form-control" />
+        <span asp-validation-for="NickName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CoachId">Coach</label>
+        @{
+            var coaches = (List<CoachViewModel>)ViewData["Coaches"];
+            <select asp-for="CoachId" class="form-control" asp-items="coaches.Select(s =>
+            new SelectListItem { Value = s.Id.ToString(), Text = s.FullName })">
+                <option value="">-- Select a Coach --</option>
+            </select>
+        }
+        @if (ViewData.ModelState.ContainsKey("CoachId") && ViewData.ModelState["CoachId"].Errors.Count > 0)
+        {
+            <div class="text-danger">Please select a coach.</div>
+        }
+    </div>
+
+    <!-- Additional form fields and submit button -->
+
+    <button type="submit" class="btn btn-dark">Edit</button>
+</form>
+</div>

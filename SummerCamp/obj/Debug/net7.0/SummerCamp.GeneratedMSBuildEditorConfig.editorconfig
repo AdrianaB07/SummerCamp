@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SummerCamp
+build_property.RootNamespace = SummerCamp
+build_property.ProjectDir = C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Coaches/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Coaches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Coaches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29hY2hlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/CompetitionMatches/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaGVzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/CompetitionMatches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/CompetitionMatches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25NYXRjaGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Competitions/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25zXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Competitions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Competitions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Competitions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Competitions/MultiSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25zXE11bHRpU2VsZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/CompetitionTeams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGV0aXRpb25UZWFtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Players/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Players/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Players/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Sponsors/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Sponsors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Sponsors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Teams/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Teams/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Teams/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Teams/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Teams/MultiSelect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbXNcTXVsdGlTZWxlY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Adriana/Desktop/NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive/SummerCamp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k87dh3ymxd

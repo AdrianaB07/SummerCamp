@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [dbo].[Competition]
+       [dbo].[CompetitionMatch]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Adress in table [dbo].[Competition] is currently  VARCHAR (50) NULL but is being changed to  INT
+         NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT
+         NULL.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Competition] (Foreign Key)
+       unnamed constraint on [dbo].[CompetitionTeam] (Foreign Key)
+       unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       [dbo].[UQ_PlayerId_TeamId] (Unique Constraint)
+     Recreate table
+       [dbo].[Competition] (Table)
+       [dbo].[CompetitionMatch] (Table)
+     Create
+       [dbo].[UQ_Team_Name] (Unique Constraint)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [dbo].[Competition] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionTeam] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+
+The type for column Adress in table [dbo].[Competition] is currently  VARCHAR (50) NULL but is being changed to  INT NULL. Data loss could occur and deployment may fail if the column contains data that is incompatible with type  INT NULL.
+

@@ -1,0 +1,21 @@
+﻿*{
+    overflow: hidden;
+}
+.container.background-image {
+    background-color: rgba(0, 0, 0, 0.5); /* Ajustați culoarea de fundal și opacitatea după preferință */
+    backdrop-filter: blur(5px); /* Adăugați această linie pentru a aplica efectul de blur */
+}
+
+.container .text-center {
+    color: white; /* Setează culoarea textului la alb */
+}
+
+    .container .text-center h1 {
+        font-size: 36px; /* Ajustați dimensiunea fontului după preferință */
+        font-weight: bold;
+    }
+
+    .container .text-center p {
+        font-size: 18px; /* Ajustați dimensiunea fontului după preferință */
+        font-weight: 500;
+    }

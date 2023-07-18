@@ -1,0 +1,28 @@
+﻿@using SummerCamp.Models
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+<div class="details-section">
+@model TeamViewModel
+@{
+    if (Model.AvailablePlayers.Count == 0)
+    {
+        <h1>Nu sunt jucatori disponibili</h1>
+    }
+    else
+    {
+        <form id="myForm" asp-action="MultiSelect" method="post" class="needs-validation" novalidate>
+            <input asp-for='Id' hidden />
+            <label asp-for="SelectedPlayerIds" class="control-label">Players</label>
+            @foreach (var player in Model.AvailablePlayers)
+            {
+                <div>
+                    <input type="checkbox" id="player@player.Value" name="SelectedPlayerIds" value="@player.Id" @(Model.SelectedPlayerIds != null && Model.SelectedPlayerIds.Contains(Convert.ToInt32(player.Id)) ? "checked" : "")>
+                    <label for="player@player.Value">@player.FullName</label>
+                </div>
+            }
+                    <button type="submit" class="btn btn-dark">Create</button>
+        </form>
+
+    }
+
+}
+</div>

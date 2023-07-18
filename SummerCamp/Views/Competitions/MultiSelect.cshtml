@@ -1,0 +1,20 @@
+﻿@model CompetitionViewModel
+
+<h1>Select Team</h1>
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+<div class="details-section">
+<form asp-action="MultiSelect" method="post">
+    @foreach (var team in Model.AvailableTeams)
+    {
+            <input asp-for='Id' hidden />
+        <div>
+            <input type="checkbox" id="team@team.Id" name="SelectedTeamIds" value="@team.Id" @(Model.SelectedTeamIds != null && Model.SelectedTeamIds.Contains(Convert.ToInt32(team.Id)) ? "checked" : "")>
+            <label for="team@team.Id">@team.Name</label>
+        </div>
+    }
+
+        <button type="submit"  class="btn btn-dark">
+            Edit
+        </button>
+</form>
+</div>

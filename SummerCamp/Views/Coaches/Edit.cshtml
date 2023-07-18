@@ -1,0 +1,22 @@
+﻿@using SummerCamp.Models
+@model CoachViewModel
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+<div class="details-section">
+@{
+    ViewData["Title"] = "Edit Coach";
+}
+
+
+<form id="myForm" asp-action="Edit" method="post" class="needs-validation" novalidate>
+    <input asp-for='Id'hidden/>
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <!-- Additional form fields and submit button -->
+
+    <button type="submit" class="btn btn-dark">Edit</button>
+</form>
+</div>

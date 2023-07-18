@@ -1,0 +1,15 @@
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\bin\Debug\net7.0\SummerCamp.DataAccessLayer.deps.json
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\bin\Debug\net7.0\SummerCamp.DataAccessLayer.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\bin\Debug\net7.0\SummerCamp.DataAccessLayer.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\refint\SummerCamp.DataAccessLayer.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\ref\SummerCamp.DataAccessLayer.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\bin\Debug\net7.0\SummerCamp.DataModels.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\bin\Debug\net7.0\SummerCamp.DataModels.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.DataAccessLayer\obj\Debug\net7.0\SummerCamp.DataAccessLayer.csproj.CopyComplete

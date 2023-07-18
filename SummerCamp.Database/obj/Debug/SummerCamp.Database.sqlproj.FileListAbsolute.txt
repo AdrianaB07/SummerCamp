@@ -1,0 +1,10 @@
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\bin\Debug\SummerCamp.Database.dacpac
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\bin\Debug\SummerCamp.Database.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\bin\Debug\SummerCamp.Database.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\SummerCamp.Database.sqlproj.AssemblyReference.cache
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\SummerCamp.Database.dll
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\SummerCamp.Database.pdb
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\Model.xml
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\refactor.xml
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\postdeploy.sql
+C:\Users\Adriana\Desktop\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\SummerCamp.Database\obj\Debug\predeploy.sql

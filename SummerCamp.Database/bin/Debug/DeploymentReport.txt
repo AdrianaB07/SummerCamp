@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CompetitionTeam] (Table)
+     Create
+       [dbo].[CompetitionMatch] (Table)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[CompetitionMatch] (Foreign Key)
+
+** Supporting actions

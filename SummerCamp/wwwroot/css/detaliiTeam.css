@@ -1,0 +1,52 @@
+﻿.details-section {
+    background-color: rgba(255, 255, 255, 0.7); /* Ajustați opacitatea și culoarea fundalului după preferință */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px; /* Ajustați dimensiunea fontului după preferință */
+    color: black; /* Setează culoarea textului la negru */
+}
+
+    .details-section h2 {
+        font-size: 24px; /* Ajustați dimensiunea fontului după preferință */
+        font-weight: bold;
+    }
+
+    .details-section h3 {
+        font-size: 20px; /* Ajustați dimensiunea fontului după preferință */
+        font-weight: bold;
+    }
+
+    .details-section p {
+        margin-bottom: 5px;
+    }
+
+    .details-section ul {
+        margin-top: 5px;
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+.teams-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.teams-table th,
+.teams-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.teams-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.teams-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.teams-table tr:hover {
+    background-color: #f5f5f5;
+}

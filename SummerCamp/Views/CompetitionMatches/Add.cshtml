@@ -1,0 +1,61 @@
+﻿@model CompetitionMatchViewModel
+@using SummerCamp.Models
+@{
+    ViewData["Title"] = "Add a Match";
+}
+<link rel="stylesheet" href="~/css/containerAlb.css" />
+<div class="table-responsive container-white">
+<form id="myForm" asp-action="Add" method="post" class="needs-validation" novalidate>
+    <input asp-for="CompetitionId" hidden value="@Model.CompetitionId" />
+        <div class="form-group">
+            <label asp-for="HomeTeamId">Team</label>
+            @{
+                var teams = (List<TeamViewModel>)ViewData["Teams"];
+                <select asp-for="HomeTeamId" class="form-control" asp-items="teams.Select(s =>
+            new SelectListItem { Value = s.Id.ToString(), Text = s.NickName })">
+                    <option value="">-- Select a Team --</option>
+                </select>
+            }
+            @if (ViewData.ModelState.ContainsKey("TeamId") && ViewData.ModelState["TeamId"].Errors.Count > 0)
+            {
+                <div class="text-danger">Please select a team.</div>
+            }
+        </div>
+        <div class="form-group">
+            <label asp-for="AwayTeamId">Team</label>
+            @{
+                <select asp-for="AwayTeamId" class="form-control" asp-items="teams.Select(s =>
+            new SelectListItem { Value = s.Id.ToString(), Text = s.NickName })">
+                    <option value="">-- Select a Team --</option>
+                </select>
+            }
+            @if (ViewData.ModelState.ContainsKey("TeamId") && ViewData.ModelState["TeamId"].Errors.Count > 0)
+            {
+                <div class="text-danger">Please select a team.</div>
+            }
+        </div>
+   @* <div class="form-group">
+        <label asp-for="HomeTeamId" class="control-label"></label>
+        @Html.DropDownList("HomeTeamId", (SelectList)ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="HomeTeamId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AwayTeamId" class="control-label"></label>
+        @Html.DropDownList("AwayTeamId", (SelectList)ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="AwayTeamId" class="text-danger"></span>
+    </div>*@
+    <div class="form-group">
+        <label asp-for="HomeTeamGoals"></label>
+        <input asp-for="HomeTeamGoals" class="form-control" />
+        <span asp-validation-for="HomeTeamGoals" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AwayTeamGoals"></label>
+        <input asp-for="AwayTeamGoals" class="form-control" />
+        <span asp-validation-for="AwayTeamGoals" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+</div>

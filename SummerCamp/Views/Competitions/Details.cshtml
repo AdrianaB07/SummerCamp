@@ -1,0 +1,31 @@
+﻿@model SummerCamp.Models.CompetitionViewModel
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+
+<div class="details-section">
+    <h2>Competition Details</h2>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Number of Teams:</strong> @Model.NumberOfTeams</p>
+    <p><strong>Address:</strong> @Model.Adress</p>
+    <p><strong>Start Date:</strong> @Model.StartDate</p>
+    <p><strong>End Date:</strong> @Model.EndDate</p>
+    <p><strong>Sponsor:</strong> @Model.Sponsor?.FullName</p>
+    <hr>
+    <h3>Participating Teams:</h3>
+    <table class="teams-table">
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Nickname</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var team in Model?.CompetitionTeams?.Select(ct => ct.Team))
+            {
+                <tr>
+                    <td>@team.Name</td>
+                    <td>@team.NickName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

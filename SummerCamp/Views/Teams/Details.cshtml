@@ -1,0 +1,20 @@
+﻿
+@model SummerCamp.Models.TeamViewModel
+<link rel="stylesheet" href="~/css/detaliiTeam.css" />
+<div class="details-section">
+    <h2>Team Details</h2>
+
+    <p><strong>Team ID:</strong> @Model.Id</p>
+    <p><strong>Nickname:</strong> @Model.NickName</p>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Coach:</strong> @Model.Coach?.FullName</p>
+    <hr>
+    <h3>Players:</h3>
+    <ul>
+        @foreach (var player in Model.SelectedPlayers)
+        {
+            <li>@player.FullName</li>
+        }
+    </ul>
+    <hr>
+</div>

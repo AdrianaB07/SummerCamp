@@ -1,0 +1,33 @@
+﻿/* Add this CSS to the detaliiTeam.css file or customize as needed */
+.details-section {
+    float: left;
+    margin-right: 20px;
+}
+
+.teams-section {
+    overflow: hidden; /* Clear float */
+}
+
+.teams-table {
+    float: right;
+    border-collapse: collapse;
+}
+
+    .teams-table th,
+    .teams-table td {
+        padding: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .teams-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    .teams-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    .teams-table tr:hover {
+        background-color: #f5f5f5;
+    }

@@ -1,0 +1,35 @@
+﻿@model CompetitionMatchViewModel
+@using SummerCamp.Models
+@{
+    ViewData["Title"] = "Edit a Match";
+}
+<link rel="stylesheet" href="~/css/containerAlb.css" />
+<div class="table-responsive container-white">
+<form id="myForm" asp-action="Edit" method="post" class="needs-validation" novalidate>
+    <input asp-for='Id' hidden />
+    <input asp-for="CompetitionId" hidden value="@ViewData["competitionId"]" />
+    <div class="form-group">
+        <label asp-for="HomeTeamId" class="control-label"></label>
+        @Html.DropDownList("HomeTeamId", (SelectList)ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="HomeTeamId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AwayTeamId" class="control-label"></label>
+        @Html.DropDownList("AwayTeamId", (SelectList)ViewData["Teams"], "Select a team", new { @class = "form-control" })
+        <span asp-validation-for="AwayTeamId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="HomeTeamGoals"></label>
+        <input asp-for="HomeTeamGoals" class="form-control" />
+        <span asp-validation-for="HomeTeamGoals" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AwayTeamGoals"></label>
+        <input asp-for="AwayTeamGoals" class="form-control" />
+        <span asp-validation-for="AwayTeamGoals" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Edit</button>
+</form>
+</div>
