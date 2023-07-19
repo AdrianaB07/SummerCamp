@@ -19,6 +19,16 @@ namespace SummerCamp.DataAccessLayer.Implementations
         {
             return dbContext.CompetitionMatches.Include(c => c.HomeTeam).Include(c => c.AwayTeam).ToList();
         }
+
+        public override CompetitionMatch? GetById(int id)
+        {
+            return dbContext.CompetitionMatches
+                .Include(c => c.AwayTeam)
+                      .ThenInclude(c => c.CompetitionTeams)
+                .Include(c => c.HomeTeam)
+                    .ThenInclude(c => c.CompetitionTeams)
+                .FirstOrDefault(c => c.Id == id);
+        }
     }
 }
 

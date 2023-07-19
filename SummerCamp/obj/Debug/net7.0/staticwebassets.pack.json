@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\containerAlb.css"
     },
     {
+      "Id": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\css\\delete.css",
+      "PackagePath": "staticwebassets\\css\\delete.css"
+    },
+    {
       "Id": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\css\\detaliiTeam.css",
       "PackagePath": "staticwebassets\\css\\detaliiTeam.css"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\js\\delete.js",
+      "PackagePath": "staticwebassets\\js\\delete.js"
     },
     {
       "Id": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\js\\site.js",

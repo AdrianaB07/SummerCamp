@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SummerCamp.DataAccessLayer.Interfaces;
+using SummerCamp.DataModels.Enums;
 using SummerCamp.DataModels.Models;
 using SummerCamp.Models;
 
@@ -30,6 +32,7 @@ namespace SummerCamp.Controllers
         {
             var teams = _mapper.Map<List<TeamViewModel>>(_teamRepository.GetAll());
             ViewData["Teams"] = teams;
+            ViewData["Positions"] = GetPositions();
 
             return View();
         }
@@ -53,6 +56,7 @@ namespace SummerCamp.Controllers
             var player = _playerRepository.GetById(playerId);
             var teams = _mapper.Map<List<TeamViewModel>>(_teamRepository.GetAll());
             ViewData["Teams"] = teams;
+            ViewData["Positions"] = GetPositions();
             var playerViewModel = _mapper.Map<PlayerViewModel>(player);
             return View(playerViewModel);
         }
@@ -77,6 +81,17 @@ namespace SummerCamp.Controllers
             _playerRepository.Delete(player);
             _playerRepository.Save();
             return RedirectToAction("Index");
+        }
+
+        private SelectList GetPositions()
+        {
+            var positions = from PositionEnum position in Enum.GetValues(typeof(PositionEnum))
+                            select new
+                            {
+                                Id = (int)position,
+                                Name = position.ToString()
+                            };
+            return new SelectList(positions, "Id", "Name");
         }
     }
 }

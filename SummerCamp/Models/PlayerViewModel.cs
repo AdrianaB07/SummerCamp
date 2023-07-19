@@ -1,4 +1,6 @@
-﻿using SummerCamp.DataModels.Models;
+﻿using SummerCamp.DataModels.Enums;
+using SummerCamp.DataModels.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace SummerCamp.Models
 {
@@ -12,7 +14,8 @@ namespace SummerCamp.Models
 
         public string? Adress { get; set; }
 
-        public int? Position { get; set; }
+        [EnumDataType(typeof(PositionEnum))]
+        public PositionEnum? Position { get; set; }
 
         public int? ShirtNumber { get; set; }
 

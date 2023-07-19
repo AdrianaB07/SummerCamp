@@ -44,14 +44,40 @@ namespace SummerCamp.Controllers
 
             if (ModelState.IsValid)
             {
+                var competitionMatchTeams = _competitionTeamRepository.Get(x => x.TeamId == competitionMatchViewModel.AwayTeamId
+                || x.TeamId == competitionMatchViewModel.HomeTeamId);
                 var competitionMatchToAdd = _mapper.Map<CompetitionMatch>(competitionMatchViewModel);
                 _competitionMatchRepository.Add(competitionMatchToAdd);
                 _competitionMatchRepository.Save();
+
+                if (competitionMatchToAdd.HomeTeamGoals == competitionMatchToAdd.AwayTeamGoals)
+                {
+                    foreach (var team in competitionMatchTeams)
+                    {
+                        team.TotalPoints += 1;
+                    }
+                }
+                else if (competitionMatchToAdd.HomeTeamGoals > competitionMatchToAdd.AwayTeamGoals)
+                {
+                    var HomeTeam = competitionMatchTeams.FirstOrDefault(x => x.TeamId == competitionMatchToAdd.HomeTeamId);
+                    HomeTeam.TotalPoints += 3;
+                }
+                else if (competitionMatchToAdd.HomeTeamGoals < competitionMatchToAdd.AwayTeamGoals)
+                {
+                    var AwayTeam = competitionMatchTeams.FirstOrDefault(x => x.TeamId == competitionMatchToAdd.AwayTeamId);
+                    AwayTeam.TotalPoints += 3;
+                }
+                foreach (var team in competitionMatchTeams)
+                {
+                    _competitionTeamRepository.Update(team);
+                }
+                _competitionTeamRepository.Save();
                 return RedirectToAction("Index", new { competitionId = competitionMatchViewModel.CompetitionId });
             }
             var competitionTeams = _competitionTeamRepository.Get(x => x.CompetitionId == competitionMatchViewModel.CompetitionId);
             var teams = _mapper.Map<List<TeamViewModel>>(competitionTeams.Select(x => x.Team));
             ViewData["Teams"] = teams;
+
             return View(competitionMatchViewModel);
         }
 
@@ -79,14 +105,25 @@ namespace SummerCamp.Controllers
         {
             var competitionMatch = _competitionMatchRepository.GetById(competitionMatchId);
 
-            if (competitionMatch == null)
+            if (competitionMatch.HomeTeamGoals == competitionMatch.AwayTeamGoals)
             {
-                return NotFound();
+                competitionMatch.HomeTeam.CompetitionTeams.FirstOrDefault(t => t.CompetitionId == competitionMatch.CompetitionId).TotalPoints -= 1;
+                competitionMatch.AwayTeam.CompetitionTeams.FirstOrDefault(t => t.CompetitionId == competitionMatch.CompetitionId).TotalPoints -= 1;
+
+            }
+            else if (competitionMatch.HomeTeamGoals > competitionMatch.AwayTeamGoals)
+            {
+                competitionMatch.HomeTeam.CompetitionTeams.FirstOrDefault(t => t.CompetitionId == competitionMatch.CompetitionId).TotalPoints -= 3;
+            }
+            else if (competitionMatch.HomeTeamGoals < competitionMatch.AwayTeamGoals)
+            {
+                competitionMatch.AwayTeam.CompetitionTeams.FirstOrDefault(t => t.CompetitionId == competitionMatch.CompetitionId).TotalPoints -= 3;
+
             }
 
             _competitionMatchRepository.Delete(competitionMatch);
             _competitionMatchRepository.Save();
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Competitions");
         }
     }
 }

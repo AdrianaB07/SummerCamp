@@ -16,14 +16,16 @@
             <tr>
                 <th>Team Name</th>
                 <th>Nickname</th>
+                <th>Total Points</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var team in Model?.CompetitionTeams?.Select(ct => ct.Team))
+            @foreach (var team in Model?.CompetitionTeams)
             {
                 <tr>
-                    <td>@team.Name</td>
-                    <td>@team.NickName</td>
+                    <td>@team.Team.Name</td>
+                    <td>@team.Team.NickName</td>
+                    <td>@team.TotalPoints</td
                 </tr>
             }
         </tbody>

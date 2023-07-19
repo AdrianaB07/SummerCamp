@@ -80,7 +80,6 @@ public partial class SummerCampDbContext : DbContext
 
             entity.HasOne(d => d.Competition).WithMany(p => p.CompetitionMatches)
                 .HasForeignKey(d => d.CompetitionId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Competiti__Compe__1AD3FDA4");
 
             entity.HasOne(d => d.HomeTeam).WithMany(p => p.CompetitionMatchHomeTeams)
@@ -97,6 +96,7 @@ public partial class SummerCampDbContext : DbContext
 
             entity.HasOne(d => d.Competition).WithMany(p => p.CompetitionTeams)
                 .HasForeignKey(d => d.CompetitionId)
+                .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK__Competiti__Compe__19DFD96B");
 
             entity.HasOne(d => d.Team).WithMany(p => p.CompetitionTeams)
@@ -151,6 +151,7 @@ public partial class SummerCampDbContext : DbContext
 
             entity.HasOne(d => d.Coach).WithMany(p => p.Teams)
                 .HasForeignKey(d => d.CoachId)
+                .OnDelete(DeleteBehavior.SetNull)
                 .HasConstraintName("FK__Team__CoachId__403A8C7D");
         });
 

@@ -109,21 +109,15 @@
 </div>
 
 <script>
-    // Selectează toate butoanele de ștergere
     const deleteButtons = document.querySelectorAll('.delete-button');
 
-    // Iterează prin fiecare buton și adaugă un eveniment de clic
     deleteButtons.forEach(button => {
         button.addEventListener('click', function (e) {
-            // Previne acțiunea implicită de navigare la apăsarea butonului
             e.preventDefault();
 
-            // Obține URL-ul de acțiune din atributul href
             const deleteUrl = button.getAttribute('href');
 
-            // Afișează pop-upul de confirmare
             if (confirm('Are you sure you want to delete this item?')) {
-                // Dacă utilizatorul a confirmat ștergerea, navighează la URL-ul de ștergere
                 window.location.href = deleteUrl;
             }
         });

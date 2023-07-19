@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PP2mA4+nyZeQ/v7SgCzbIhK0+ErU30bwBbPXOlD/1K8=",
+  "Hash": "aFLYBwbCjmjg1HYWL+giQkm/Zbt6fSZDrUfemdt+QwY=",
   "Source": "SummerCamp",
   "BasePath": "_content/SummerCamp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\containerAlb.css"
+    },
+    {
+      "Identity": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\css\\delete.css",
+      "SourceId": "SummerCamp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\",
+      "BasePath": "_content/SummerCamp",
+      "RelativePath": "css/delete.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\delete.css"
     },
     {
       "Identity": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\css\\DetaliiCompetitie.css",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\js\\delete.js",
+      "SourceId": "SummerCamp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\",
+      "BasePath": "_content/SummerCamp",
+      "RelativePath": "js/delete.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\delete.js"
     },
     {
       "Identity": "C:\\Users\\Adriana\\Desktop\\NetRom-Aplicatie web pentru Managamentul unei Competiti Sportive\\SummerCamp\\wwwroot\\js\\site.js",
